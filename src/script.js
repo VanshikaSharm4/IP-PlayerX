@@ -9,13 +9,13 @@ TicTac.addEventListener("click", function() {
 var FluffyB = document.getElementById("FluffyB");
 FluffyB.addEventListener("click", function() {
   
-    window.open("https://vanshika345.github.io/FEWD-CA2/", "_blank");
+    window.open("https://vanshikasharm4.github.io/FEWD-CA2/", "_blank");
 });
 
 var Numeron = document.getElementById("Numeron");
 Numeron.addEventListener("click", function() {
   
-    window.open("https://vanshika345.github.io/Numeron-Game/" , "_blank");
+    window.open("https://vanshikasharm4.github.io/Numeron-Game/" , "_blank");
 });
 
 var RPS = document.getElementById("RPS");
@@ -33,9 +33,26 @@ snake.addEventListener("click", function() {
 var zombie = document.getElementById("zombie");
 zombie.addEventListener("click", function() {
   
-    window.open("https://vanshika345.github.io/Zombie-game/", "_blank");
+    window.open("https://vanshikasharm4.github.io/Zombie-game/", "_blank");
 });
 
+var n2 = document.getElementById("n-2");
+n2.addEventListener("click", function() {
+  
+    window.open("https://iisshh17.github.io/Numeron-2/", "_blank");
+});
+
+var rr = document.getElementById("rr");
+rr.addEventListener("click", function() {
+  
+    window.open("https://iisshh17.github.io/Roo-Run-CA-2-/", "_blank");
+});
+
+var dr = document.getElementById("dr");
+dr.addEventListener("click", function() {
+  
+    window.open("https://aaditya0207.github.io/QuizDrive-07/", "_blank");
+});
 
 
 $(document).ready(function(){
@@ -128,6 +145,16 @@ $(document).ready(function(){
 
 
 function openFeedback() {
-    window.location.href = "mailto:vanshika1576.be23@chitkarauniversity.edu.in?subject=Website Feedback";
+    window.location.href = "mailto:playerx01497651@gmail.com?subject=Website Feedback";
 }
+
+document.querySelectorAll('[data-toc-button]').forEach(button => {  
+    button.addEventListener('click', () => {
+      const section = document.getElementById(button.href)
+  
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' })
+      }
+    });
+  })
 
